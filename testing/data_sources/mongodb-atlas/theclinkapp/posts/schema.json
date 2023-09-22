@@ -1,0 +1,182 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "background": {
+            "bsonType": "string"
+        },
+        "boosted": {
+            "bsonType": "long"
+        },
+        "category": {
+            "bsonType": "long"
+        },
+        "clrType": {
+            "bsonType": "string"
+        },
+        "collegeCode": {
+            "bsonType": "string"
+        },
+        "comment": {
+            "bsonType": "string"
+        },
+        "commentId": {
+            "bsonType": "string"
+        },
+        "courseCode": {
+            "bsonType": "string"
+        },
+        "font": {
+            "bsonType": "long"
+        },
+        "fontType": {
+            "bsonType": "string"
+        },
+        "hastags": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "hastagsL": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "index": {
+            "bsonType": "long"
+        },
+        "likeCount": {
+            "bsonType": "long"
+        },
+        "likedBy": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "mediaLists": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "fileName": {
+                        "bsonType": "string"
+                    },
+                    "height": {
+                        "bsonType": "string"
+                    },
+                    "mimeType": {
+                        "bsonType": "string"
+                    },
+                    "size": {
+                        "bsonType": "string"
+                    },
+                    "width": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "mediaFiles",
+                "type": "object"
+            }
+        },
+        "mediaName": {
+            "bsonType": "string"
+        },
+        "mentions": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "mentionsL": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "mongoUserId": {
+            "bsonType": "string"
+        },
+        "notificationOff": {
+            "bsonType": "bool"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "percentage": {
+            "bsonType": "long"
+        },
+        "playStatus": {
+            "bsonType": "bool"
+        },
+        "postAccountType": {
+            "bsonType": "string"
+        },
+        "postId": {
+            "bsonType": "string"
+        },
+        "privacy": {
+            "bsonType": "long"
+        },
+        "rawText": {
+            "bsonType": "string"
+        },
+        "reactionType": {
+            "bsonType": "string"
+        },
+        "realOwnerId": {
+            "bsonType": "string"
+        },
+        "realPostId": {
+            "bsonType": "string"
+        },
+        "shared": {
+            "bsonType": "bool"
+        },
+        "tags": {
+            "bsonType": "string"
+        },
+        "theme": {
+            "bsonType": "long"
+        },
+        "thumbnail": {
+            "bsonType": "string"
+        },
+        "timeStamp": {
+            "bsonType": "date"
+        },
+        "type": {
+            "bsonType": "string"
+        },
+        "uid": {
+            "bsonType": "string"
+        },
+        "universityCode": {
+            "bsonType": "string"
+        },
+        "viewCount": {
+            "bsonType": "long"
+        },
+        "viewHeight": {
+            "bsonType": "long"
+        },
+        "viewWidth": {
+            "bsonType": "long"
+        },
+        "visibility": {
+            "bsonType": "string"
+        },
+        "writeTime": {
+            "bsonType": "date"
+        },
+        "yoj": {
+            "bsonType": "string"
+        }
+    },
+    "required": [],
+    "title": "posts",
+    "type": "object"
+}

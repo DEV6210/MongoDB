@@ -1,0 +1,100 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "listFollowers": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "followingFlag": {
+                        "bsonType": "string"
+                    },
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "userImage": {
+                        "bsonType": "string"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "followerLists",
+                "type": "object"
+            }
+        },
+        "listFollowings": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "followingFlag": {
+                        "bsonType": "string"
+                    },
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "userImage": {
+                        "bsonType": "string"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "followingLists",
+                "type": "object"
+            }
+        },
+        "mongoUserId": {
+            "bsonType": "string"
+        },
+        "userDetails": {
+            "properties": {
+                "collegeCode": {
+                    "bsonType": "string"
+                },
+                "collegeName": {
+                    "bsonType": "string"
+                },
+                "collegeShortName": {
+                    "bsonType": "string"
+                },
+                "dpFrame": {
+                    "bsonType": "long"
+                },
+                "universityName": {
+                    "bsonType": "string"
+                },
+                "userId": {
+                    "bsonType": "string"
+                },
+                "userImage": {
+                    "bsonType": "string"
+                },
+                "userName": {
+                    "bsonType": "string"
+                },
+                "yoj": {
+                    "bsonType": "string"
+                },
+                "yop": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "userDetail",
+            "type": "object"
+        }
+    },
+    "required": [],
+    "title": "user_followings",
+    "type": "object"
+}

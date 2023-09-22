@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "country": {
+            "bsonType": "string"
+        },
+        "courseCode": {
+            "bsonType": "string"
+        },
+        "depCode": {
+            "bsonType": "string"
+        },
+        "depName": {
+            "bsonType": "string"
+        },
+        "depShortName": {
+            "bsonType": "string"
+        },
+        "duration": {
+            "bsonType": "string"
+        },
+        "fullName": {
+            "bsonType": "string"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "shortName": {
+            "bsonType": "string"
+        },
+        "type": {
+            "bsonType": "string"
+        }
+    },
+    "required": [],
+    "title": "courses",
+    "type": "object"
+}

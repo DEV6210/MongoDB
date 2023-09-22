@@ -1,0 +1,8 @@
+{
+    "from_secret": false,
+    "name": "database",
+    "value": {
+        "dbName": "theclinkapp",
+        "dbServices": "mongodb-atlas"
+    }
+}

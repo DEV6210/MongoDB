@@ -1,0 +1,28 @@
+{
+    "id": "64c9486064d14f70a43bd312",
+    "name": "Trigger-1",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "UPDATE"
+        ],
+        "database": "theclinkapp",
+        "collection": "userinfos",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": false,
+        "full_document_before_change": false,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "main_userInfos"
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "actionTaker": {
+            "properties": {
+                "actionTaken": {
+                    "bsonType": "string"
+                },
+                "actioneerId": {
+                    "bsonType": "string"
+                },
+                "result": {
+                    "bsonType": "string"
+                },
+                "timeStamp": {
+                    "bsonType": "date"
+                }
+            },
+            "required": [],
+            "title": "actioneer",
+            "type": "object"
+        },
+        "count": {
+            "bsonType": "long"
+        },
+        "postId": {
+            "bsonType": "string"
+        },
+        "reportList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "reportReason": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    }
+                },
+                "required": [],
+                "title": "reportList",
+                "type": "object"
+            }
+        },
+        "timestamp": {
+            "bsonType": "date"
+        }
+    },
+    "required": [],
+    "title": "reported_posts",
+    "type": "object"
+}

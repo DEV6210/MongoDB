@@ -1,0 +1,28 @@
+{
+    "id": "64b965c89166bfe5be857dd2",
+    "name": "Trigger-3",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "UPDATE"
+        ],
+        "database": "theclinkapp",
+        "collection": "post_reactions",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": false,
+        "full_document_before_change": false,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "main_postReactions"
+            }
+        }
+    }
+}

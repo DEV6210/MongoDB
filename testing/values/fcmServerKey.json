@@ -1,0 +1,17 @@
+{
+    "from_secret": false,
+    "name": "fcmServerKey",
+    "value": {
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "client_email": "firebase-adminsdk-pabnc@theclink-6c9b5.iam.gserviceaccount.com",
+        "client_id": "114052261867419700881",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-pabnc%40theclink-6c9b5.iam.gserviceaccount.com",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjqL16k3EGhPf4\n2C+iks6D2P2NlQImETbDfCnGZimlbrf1hj/4W4MK2vsrII5ZiSawm1rDdFwhIrbm\nq8lB/5eXU7Qm7RqT5TVIOWxuSxKTK65tunE3R2Iwz2i9TmNRneB3ThKZ/7KAa9mp\nwEKdLE95wsiw5RJm2aNeNt2yqFNYOOR7yhj/V3rnk6RMMKuzRLyIjDW5dzLNpuNu\nwrIWEbjqEpCKJVjFURoovJrbteyRm2EDa+GExor4E6IQsPlhQrn+JL7MffC09uZ/\n8Tw7Tr1uO1/GhofzWUH+uhNWFBP0F06zKu4Dz98eHfV7RKwXAhTWUjiMZ1gJd8fy\njSWL1Cn9AgMBAAECggEAAu0UrDEgK3VrqJWW7nFxA075I5OnNO6IW+Dnr04qzvQm\nklt639IlCufk5z2/Bc9Ls4sniYiWUBpaik/Geqla+L/sn+iL2dqWhArQyz0I4Tw9\n82TKuuoKEaTXstDIulAYEBIDh6DYfG7RNrWDC2PcLOlkZLNHy7J29wuElbnoOZLN\nftswYZ+dZTJ3RX76V860jfOekQCPa+iHwnMAxT4BoMyT9z8oaGy+Xgd64znT593f\nrhGk3GdshLJlFcij49Ins2Hb1UchBR8huayHaHDu/516kdHX3o9BM+drQLjXb13s\nSX8HY0wKN+0S3N/kK2wP25+c0NwKg6/PVOgib9wT4QKBgQDbKu5hhft9jZdbPLbH\nk9mPHumPNf7upFxwKpak/B4XcZ05OoWwA6SraurNQ/0FVHPYkbzUpsR8xIL7yD0h\nE0PQbpYlYUo6PLCH/AyLhwYvY4ZT736ftioI7j038MNbeWr+Op2uhA8rP+tcLukn\ndJuqLcL093WoKW65T6lfxHcEnQKBgQC/KbXsRvJaIsu8XqyO6Lv9QkWFVUn3Q66x\nwU1EKJVw5uhrnO/4X4tg+PNpfEGkEcfGgQP/lZNOBlv9XI7J8sWctBWSH+P1VhrR\nChd32itKy4SPBkul89vDG2KNCoSFF3YLO0EwWlq5qj7hMDpMzLvjmW/DEau/VlMB\n6tSfYfzM4QKBgQDXyx2LyHAm3xL4Mn+FYn4D/VvaNkAcmJirmENbjyHR03wKrSSU\negHZBhzKnvayGMU3p8dVWh58+sA9SJtnxaAvybLsey6qyLbILdPsTbY5UrUgT99N\nQf+Ba5G7UsQHfTVrvCslecG1w+npigbnYlki5ovexwiB2sm6jEUoljjZwQKBgHUi\nu+UCPDLbK3hLkvUmyzqOx0bCUkZ/ZKZrSks/iwLZmwWF7s2EzkUnhw/WIerFMmMC\nX07XeqHO58NCWgSJDGnPN4CIpgiJMHly85pvRyPXvWxecTBJUxokx6ihDz72d1C+\niF12oC0wksMt6CtzMJZwSLmBNHpUDR0Zphvb0SpBAoGBAL4pTkpkJ1uyFc3JIVf/\nMvf700KBkCtihvIBinOFbjRApyGyihZJ3g8wcIbqE+Y9gEW4CASU2coxxUljV3qH\nKAYeAI+c9Bkya/O3i2/h9QPvvD8l2zPCsdj0X+NRjTFHUxteYUpMDlLm8dsSXhph\nSlqITTpVccgyh2eL+6uWCDGv\n-----END PRIVATE KEY-----\n",
+        "private_key_id": "1f94c6c247540c1b77602529645c17321e1d9e9e",
+        "project_id": "theclink-6c9b5",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "type": "service_account",
+        "universe_domain": "googleapis.com"
+    }
+}

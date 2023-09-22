@@ -1,0 +1,19 @@
+{
+    "collection": "customdata",
+    "database": "theclinkapp",
+    "roles": [
+        {
+            "name": "denyAllAccess",
+            "apply_when": {},
+            "document_filters": {
+                "write": false,
+                "read": false
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": false,
+            "search": false
+        }
+    ]
+}

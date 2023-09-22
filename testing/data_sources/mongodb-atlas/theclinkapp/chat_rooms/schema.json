@@ -1,0 +1,126 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "listRooms": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "dateStarted": {
+                        "bsonType": "date"
+                    },
+                    "friendConvoId": {
+                        "bsonType": "string"
+                    },
+                    "friendId": {
+                        "bsonType": "string"
+                    },
+                    "groupAdmin": {
+                        "bsonType": "string"
+                    },
+                    "groupId": {
+                        "bsonType": "string"
+                    },
+                    "groupImage": {
+                        "bsonType": "string"
+                    },
+                    "groupName": {
+                        "bsonType": "string"
+                    },
+                    "groupType": {
+                        "bsonType": "string"
+                    },
+                    "lastMessage": {
+                        "bsonType": "string"
+                    },
+                    "lastSender": {
+                        "bsonType": "string"
+                    },
+                    "moderators": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "myConvoId": {
+                        "bsonType": "string"
+                    },
+                    "myId": {
+                        "bsonType": "string"
+                    },
+                    "participants": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "request": {
+                        "bsonType": "string"
+                    },
+                    "requestBy": {
+                        "bsonType": "string"
+                    },
+                    "requestType": {
+                        "bsonType": "string"
+                    },
+                    "subtype": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "type": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "roomList",
+                "type": "object"
+            }
+        },
+        "mongoUserId": {
+            "bsonType": "string"
+        },
+        "userDetails": {
+            "properties": {
+                "collegeCode": {
+                    "bsonType": "string"
+                },
+                "collegeName": {
+                    "bsonType": "string"
+                },
+                "collegeShortName": {
+                    "bsonType": "string"
+                },
+                "dpFrame": {
+                    "bsonType": "long"
+                },
+                "universityName": {
+                    "bsonType": "string"
+                },
+                "userId": {
+                    "bsonType": "string"
+                },
+                "userImage": {
+                    "bsonType": "string"
+                },
+                "userName": {
+                    "bsonType": "string"
+                },
+                "yoj": {
+                    "bsonType": "string"
+                },
+                "yop": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "userDetail",
+            "type": "object"
+        }
+    },
+    "required": [],
+    "title": "chat_rooms",
+    "type": "object"
+}

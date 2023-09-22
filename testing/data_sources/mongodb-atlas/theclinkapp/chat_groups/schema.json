@@ -1,0 +1,236 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "admins": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "accountType": {
+                        "bsonType": "string"
+                    },
+                    "adminType": {
+                        "bsonType": "string"
+                    },
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "GroupAdmins",
+                "type": "object"
+            }
+        },
+        "chatList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "file": {
+                        "bsonType": "string"
+                    },
+                    "fileList": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "files": {
+                        "bsonType": "array",
+                        "items": {
+                            "properties": {
+                                "fileName": {
+                                    "bsonType": "string"
+                                },
+                                "height": {
+                                    "bsonType": "string"
+                                },
+                                "mimeType": {
+                                    "bsonType": "string"
+                                },
+                                "size": {
+                                    "bsonType": "string"
+                                },
+                                "width": {
+                                    "bsonType": "string"
+                                }
+                            },
+                            "required": [],
+                            "title": "mediaFiles",
+                            "type": "object"
+                        }
+                    },
+                    "key": {
+                        "bsonType": "string"
+                    },
+                    "lastMsg": {
+                        "properties": {
+                            "rawMessage": {
+                                "bsonType": "string"
+                            },
+                            "senderId": {
+                                "bsonType": "string"
+                            },
+                            "senderName": {
+                                "bsonType": "string"
+                            },
+                            "timeStamp": {
+                                "bsonType": "date"
+                            }
+                        },
+                        "required": [],
+                        "title": "LastMessage",
+                        "type": "object"
+                    },
+                    "rawMessage": {
+                        "bsonType": "string"
+                    },
+                    "receiverId": {
+                        "bsonType": "string"
+                    },
+                    "receiverList": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "reply": {
+                        "properties": {
+                            "mongoUserId": {
+                                "bsonType": "string"
+                            },
+                            "msgKey": {
+                                "bsonType": "string"
+                            },
+                            "msgType": {
+                                "bsonType": "string"
+                            },
+                            "taggedMsg": {
+                                "bsonType": "string"
+                            },
+                            "thumbnail": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "required": [],
+                        "title": "repliedMsgs",
+                        "type": "object"
+                    },
+                    "replyType": {
+                        "bsonType": "bool"
+                    },
+                    "roomType": {
+                        "bsonType": "string"
+                    },
+                    "seenBy": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "seenStamp": {
+                        "bsonType": "date"
+                    },
+                    "senderId": {
+                        "bsonType": "string"
+                    },
+                    "show": {
+                        "bsonType": "bool"
+                    },
+                    "status": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "type": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "convoList",
+                "type": "object"
+            }
+        },
+        "creatorId": {
+            "bsonType": "string"
+        },
+        "groupDesc": {
+            "bsonType": "string"
+        },
+        "groupImage": {
+            "bsonType": "string"
+        },
+        "groupMembers": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "accessType": {
+                        "bsonType": "string"
+                    },
+                    "memberType": {
+                        "bsonType": "string"
+                    },
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "requestType": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "GroupMembers",
+                "type": "object"
+            }
+        },
+        "groupName": {
+            "bsonType": "string"
+        },
+        "groupType": {
+            "bsonType": "string"
+        },
+        "lastMsg": {
+            "properties": {
+                "rawMessage": {
+                    "bsonType": "string"
+                },
+                "senderId": {
+                    "bsonType": "string"
+                },
+                "senderName": {
+                    "bsonType": "string"
+                },
+                "timeStamp": {
+                    "bsonType": "date"
+                }
+            },
+            "required": [],
+            "title": "LastMessage",
+            "type": "object"
+        },
+        "subtype": {
+            "bsonType": "string"
+        },
+        "timeStamp": {
+            "bsonType": "date"
+        },
+        "type": {
+            "bsonType": "string"
+        }
+    },
+    "required": [],
+    "title": "chat_groups",
+    "type": "object"
+}

@@ -1,0 +1,286 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "accountPrivacy": {
+            "bsonType": "string"
+        },
+        "activeFollowers": {
+            "bsonType": "long"
+        },
+        "activeFollowings": {
+            "bsonType": "long"
+        },
+        "allFollowers": {
+            "bsonType": "long"
+        },
+        "allFollowings": {
+            "bsonType": "long"
+        },
+        "allUnFollowers": {
+            "bsonType": "long"
+        },
+        "allUnFollowings": {
+            "bsonType": "long"
+        },
+        "blockByList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "blockedList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "blockFlag": {
+                        "bsonType": "string"
+                    },
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    }
+                },
+                "required": [],
+                "title": "blockList",
+                "type": "object"
+            }
+        },
+        "commentCount": {
+            "bsonType": "long"
+        },
+        "followRequests": {
+            "bsonType": "long"
+        },
+        "hiddenPostList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "listVisitor": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "fHideVisitor": {
+                        "bsonType": "bool"
+                    },
+                    "mHideVisitor": {
+                        "bsonType": "bool"
+                    },
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "userImage": {
+                        "bsonType": "string"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    },
+                    "visitCount": {
+                        "bsonType": "long"
+                    },
+                    "visitHour": {
+                        "bsonType": "long"
+                    }
+                },
+                "required": [],
+                "title": "visitors",
+                "type": "object"
+            }
+        },
+        "mongoUserId": {
+            "bsonType": "string"
+        },
+        "mutedUserList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "days": {
+                        "bsonType": "long"
+                    },
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    }
+                },
+                "required": [],
+                "title": "mutedUser",
+                "type": "object"
+            }
+        },
+        "myPostCount": {
+            "bsonType": "long"
+        },
+        "notification": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "_id": {
+                        "bsonType": "string"
+                    },
+                    "content": {
+                        "bsonType": "string"
+                    },
+                    "count": {
+                        "bsonType": "long"
+                    },
+                    "mongoUserList": {
+                        "bsonType": "array",
+                        "items": {
+                            "properties": {
+                                "dpFrame": {
+                                    "bsonType": "long"
+                                },
+                                "mongoUserId": {
+                                    "bsonType": "string"
+                                },
+                                "timeStamp": {
+                                    "bsonType": "date"
+                                },
+                                "userImage": {
+                                    "bsonType": "string"
+                                },
+                                "userName": {
+                                    "bsonType": "string"
+                                }
+                            },
+                            "required": [],
+                            "title": "userList",
+                            "type": "object"
+                        }
+                    },
+                    "postId": {
+                        "bsonType": "string"
+                    },
+                    "postType": {
+                        "bsonType": "string"
+                    },
+                    "readFlag": {
+                        "bsonType": "bool"
+                    },
+                    "readStamp": {
+                        "bsonType": "date"
+                    },
+                    "showType": {
+                        "bsonType": "bool"
+                    },
+                    "subType": {
+                        "bsonType": "string"
+                    },
+                    "thumbnail": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "type": {
+                        "bsonType": "string"
+                    },
+                    "userImage": {
+                        "bsonType": "string"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "notificationList",
+                "type": "object"
+            }
+        },
+        "postLikeCount": {
+            "bsonType": "long"
+        },
+        "postSharedCount": {
+            "bsonType": "long"
+        },
+        "reportedPostList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "reportedUsers": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "savedList": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "sharedPostCount": {
+            "bsonType": "long"
+        },
+        "tokenId": {
+            "bsonType": "string"
+        },
+        "userDetails": {
+            "properties": {
+                "collegeCode": {
+                    "bsonType": "string"
+                },
+                "collegeName": {
+                    "bsonType": "string"
+                },
+                "collegeShortName": {
+                    "bsonType": "string"
+                },
+                "dpFrame": {
+                    "bsonType": "long"
+                },
+                "universityName": {
+                    "bsonType": "string"
+                },
+                "userId": {
+                    "bsonType": "string"
+                },
+                "userImage": {
+                    "bsonType": "string"
+                },
+                "userName": {
+                    "bsonType": "string"
+                },
+                "yoj": {
+                    "bsonType": "string"
+                },
+                "yop": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "userDetail",
+            "type": "object"
+        },
+        "userVisitCount": {
+            "bsonType": "long"
+        },
+        "viewCount": {
+            "bsonType": "long"
+        },
+        "visitCount": {
+            "bsonType": "long"
+        },
+        "visitorPrivacy": {
+            "bsonType": "bool"
+        },
+        "weeklyVisitCount": {
+            "bsonType": "long"
+        }
+    },
+    "required": [],
+    "title": "userinfos",
+    "type": "object"
+}

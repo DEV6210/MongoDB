@@ -1,0 +1,224 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "accountType": {
+            "bsonType": "string"
+        },
+        "addInfo": {
+            "properties": {
+                "date": {
+                    "bsonType": "date"
+                },
+                "name": {
+                    "bsonType": "string"
+                },
+                "userId": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "AddInfo",
+            "type": "object"
+        },
+        "bio": {
+            "bsonType": "string"
+        },
+        "bornDate": {
+            "bsonType": "date"
+        },
+        "collegeCode": {
+            "bsonType": "string"
+        },
+        "collegeDetail": {
+            "properties": {
+                "address": {
+                    "bsonType": "string"
+                },
+                "code": {
+                    "bsonType": "string"
+                },
+                "dbVersion": {
+                    "bsonType": "long"
+                },
+                "fullName": {
+                    "bsonType": "string"
+                },
+                "nameSearch": {
+                    "bsonType": "string"
+                },
+                "shortName": {
+                    "bsonType": "string"
+                },
+                "universityCode": {
+                    "bsonType": "string"
+                },
+                "universityName": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "collegeDetails",
+            "type": "object"
+        },
+        "courseCode": {
+            "bsonType": "string"
+        },
+        "courseDetail": {
+            "properties": {
+                "_id": {
+                    "bsonType": "string"
+                },
+                "courseCode": {
+                    "bsonType": "string"
+                },
+                "dbVersion": {
+                    "bsonType": "long"
+                },
+                "depCode": {
+                    "bsonType": "string"
+                },
+                "depName": {
+                    "bsonType": "string"
+                },
+                "depShortName": {
+                    "bsonType": "string"
+                },
+                "duration": {
+                    "bsonType": "string"
+                },
+                "fullName": {
+                    "bsonType": "string"
+                },
+                "shortName": {
+                    "bsonType": "string"
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "courseDetails",
+            "type": "object"
+        },
+        "dob": {
+            "bsonType": "string"
+        },
+        "dpFrame": {
+            "bsonType": "long"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "fatherName": {
+            "bsonType": "string"
+        },
+        "firstName": {
+            "bsonType": "string"
+        },
+        "fullName": {
+            "bsonType": "string"
+        },
+        "gender": {
+            "bsonType": "string"
+        },
+        "lastLocation": {
+            "properties": {
+                "adminArea": {
+                    "bsonType": "string"
+                },
+                "collegeCountry": {
+                    "bsonType": "string"
+                },
+                "country": {
+                    "bsonType": "string"
+                },
+                "countryCode": {
+                    "bsonType": "string"
+                },
+                "latitude": {
+                    "bsonType": "string"
+                },
+                "locality": {
+                    "bsonType": "string"
+                },
+                "longitude": {
+                    "bsonType": "string"
+                },
+                "subAdminArea": {
+                    "bsonType": "string"
+                },
+                "subThoughFare": {
+                    "bsonType": "string"
+                },
+                "timeStamp": {
+                    "bsonType": "date"
+                }
+            },
+            "required": [],
+            "title": "location",
+            "type": "object"
+        },
+        "lastName": {
+            "bsonType": "string"
+        },
+        "lastStamp": {
+            "bsonType": "date"
+        },
+        "middleName": {
+            "bsonType": "string"
+        },
+        "mobile": {
+            "bsonType": "string"
+        },
+        "mongoUserId": {
+            "bsonType": "string"
+        },
+        "motherName": {
+            "bsonType": "string"
+        },
+        "nameSearch": {
+            "bsonType": "string"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "roll": {
+            "bsonType": "string"
+        },
+        "section": {
+            "bsonType": "string"
+        },
+        "status": {
+            "bsonType": "string"
+        },
+        "timeStamp": {
+            "bsonType": "date"
+        },
+        "title": {
+            "bsonType": "string"
+        },
+        "universityCode": {
+            "bsonType": "string"
+        },
+        "userId": {
+            "bsonType": "string"
+        },
+        "userImage": {
+            "bsonType": "string"
+        },
+        "verifiedOn": {
+            "bsonType": "date"
+        },
+        "yoj": {
+            "bsonType": "string"
+        },
+        "yop": {
+            "bsonType": "string"
+        }
+    },
+    "required": [],
+    "title": "users",
+    "type": "object"
+}

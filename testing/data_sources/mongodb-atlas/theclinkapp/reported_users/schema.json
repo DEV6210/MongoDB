@@ -1,0 +1,97 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "actionTaker": {
+            "properties": {
+                "actionTaken": {
+                    "bsonType": "string"
+                },
+                "actioneerId": {
+                    "bsonType": "string"
+                },
+                "result": {
+                    "bsonType": "string"
+                },
+                "timeStamp": {
+                    "bsonType": "date"
+                }
+            },
+            "required": [],
+            "title": "actioneer",
+            "type": "object"
+        },
+        "count": {
+            "bsonType": "long"
+        },
+        "mongoUserId": {
+            "bsonType": "string"
+        },
+        "reportList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "reportReason": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    }
+                },
+                "required": [],
+                "title": "reportList",
+                "type": "object"
+            }
+        },
+        "timestamp": {
+            "bsonType": "date"
+        },
+        "userDetails": {
+            "properties": {
+                "collegeCode": {
+                    "bsonType": "string"
+                },
+                "collegeName": {
+                    "bsonType": "string"
+                },
+                "collegeShortName": {
+                    "bsonType": "string"
+                },
+                "dpFrame": {
+                    "bsonType": "long"
+                },
+                "universityName": {
+                    "bsonType": "string"
+                },
+                "userId": {
+                    "bsonType": "string"
+                },
+                "userImage": {
+                    "bsonType": "string"
+                },
+                "userName": {
+                    "bsonType": "string"
+                },
+                "yoj": {
+                    "bsonType": "string"
+                },
+                "yop": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "userDetail",
+            "type": "object"
+        }
+    },
+    "required": [],
+    "title": "reported_users",
+    "type": "object"
+}

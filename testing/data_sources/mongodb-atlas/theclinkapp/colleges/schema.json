@@ -1,0 +1,223 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "addOn": {
+            "bsonType": "date"
+        },
+        "collegeCode": {
+            "bsonType": "string"
+        },
+        "contact": {
+            "bsonType": "string"
+        },
+        "courseList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "_id": {
+                        "bsonType": "string"
+                    },
+                    "activeBatch": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "assistantHod": {
+                        "properties": {
+                            "email": {
+                                "bsonType": "string"
+                            },
+                            "mobile": {
+                                "bsonType": "string"
+                            },
+                            "mongoUserId": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "required": [],
+                        "title": "AssistantHod",
+                        "type": "object"
+                    },
+                    "country": {
+                        "bsonType": "string"
+                    },
+                    "courseCode": {
+                        "bsonType": "string"
+                    },
+                    "depCode": {
+                        "bsonType": "string"
+                    },
+                    "depName": {
+                        "bsonType": "string"
+                    },
+                    "depShortName": {
+                        "bsonType": "string"
+                    },
+                    "duration": {
+                        "bsonType": "string"
+                    },
+                    "fullName": {
+                        "bsonType": "string"
+                    },
+                    "hod": {
+                        "properties": {
+                            "email": {
+                                "bsonType": "string"
+                            },
+                            "mobile": {
+                                "bsonType": "string"
+                            },
+                            "mongoUserId": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "required": [],
+                        "title": "Hod",
+                        "type": "object"
+                    },
+                    "owner_Id": {
+                        "bsonType": "string"
+                    },
+                    "shortName": {
+                        "bsonType": "string"
+                    },
+                    "type": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "courseList",
+                "type": "object"
+            }
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "fullAddress": {
+            "bsonType": "string"
+        },
+        "fullName": {
+            "bsonType": "string"
+        },
+        "image": {
+            "bsonType": "string"
+        },
+        "location": {
+            "properties": {
+                "block": {
+                    "bsonType": "string"
+                },
+                "branchType": {
+                    "bsonType": "string"
+                },
+                "circle": {
+                    "bsonType": "string"
+                },
+                "country": {
+                    "bsonType": "string"
+                },
+                "district": {
+                    "bsonType": "string"
+                },
+                "pincode": {
+                    "bsonType": "string"
+                },
+                "postOffice": {
+                    "bsonType": "string"
+                },
+                "region": {
+                    "bsonType": "string"
+                },
+                "state": {
+                    "bsonType": "string"
+                },
+                "subDivision": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "address",
+            "type": "object"
+        },
+        "nameSearch": {
+            "bsonType": "string"
+        },
+        "noticeboard": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "_id": {
+                        "bsonType": "string"
+                    },
+                    "content": {
+                        "bsonType": "string"
+                    },
+                    "file": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "noticeType": {
+                        "bsonType": "string"
+                    },
+                    "publisher": {
+                        "properties": {
+                            "name": {
+                                "bsonType": "string"
+                            },
+                            "userId": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "required": [],
+                        "title": "publishedBy",
+                        "type": "object"
+                    },
+                    "readBy": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    }
+                },
+                "required": [],
+                "title": "notice",
+                "type": "object"
+            }
+        },
+        "shortName": {
+            "bsonType": "string"
+        },
+        "status": {
+            "bsonType": "string"
+        },
+        "timeStamp": {
+            "bsonType": "date"
+        },
+        "universityCode": {
+            "bsonType": "string"
+        },
+        "universityName": {
+            "bsonType": "string"
+        },
+        "website": {
+            "bsonType": "string"
+        }
+    },
+    "required": [],
+    "title": "colleges",
+    "type": "object"
+}

@@ -1,0 +1,89 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "accountType": {
+            "bsonType": "string"
+        },
+        "addedInfo": {
+            "properties": {
+                "date": {
+                    "bsonType": "date"
+                },
+                "name": {
+                    "bsonType": "string"
+                },
+                "userId": {
+                    "bsonType": "string"
+                }
+            },
+            "required": [],
+            "title": "AddInfo",
+            "type": "object"
+        },
+        "collegeCode": {
+            "bsonType": "string"
+        },
+        "courseCode": {
+            "bsonType": "string"
+        },
+        "dob": {
+            "bsonType": "string"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "fatherName": {
+            "bsonType": "string"
+        },
+        "firstName": {
+            "bsonType": "string"
+        },
+        "fullName": {
+            "bsonType": "string"
+        },
+        "gender": {
+            "bsonType": "string"
+        },
+        "lastName": {
+            "bsonType": "string"
+        },
+        "middleName": {
+            "bsonType": "string"
+        },
+        "mobile": {
+            "bsonType": "string"
+        },
+        "motherName": {
+            "bsonType": "string"
+        },
+        "nameSearch": {
+            "bsonType": "string"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "roll": {
+            "bsonType": "string"
+        },
+        "status": {
+            "bsonType": "string"
+        },
+        "timeStamp": {
+            "bsonType": "date"
+        },
+        "universityCode": {
+            "bsonType": "string"
+        },
+        "verifiedOn": {
+            "bsonType": "date"
+        },
+        "yoj": {
+            "bsonType": "string"
+        }
+    },
+    "required": [],
+    "title": "students",
+    "type": "object"
+}

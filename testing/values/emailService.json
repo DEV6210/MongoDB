@@ -1,0 +1,11 @@
+{
+    "from_secret": false,
+    "name": "emailService",
+    "value": {
+        "email": "account@theclink.in",
+        "host": "mail.theclink.net",
+        "pass": "LA52Dg+ZxYnb",
+        "port": 465,
+        "secure": true
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "code": {
+            "bsonType": "string"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "fullAddress": {
+            "bsonType": "string"
+        },
+        "fullName": {
+            "bsonType": "string"
+        },
+        "image": {
+            "bsonType": "string"
+        },
+        "nameSearch": {
+            "bsonType": "string"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "shortName": {
+            "bsonType": "string"
+        }
+    },
+    "required": [],
+    "title": "universities",
+    "type": "object"
+}

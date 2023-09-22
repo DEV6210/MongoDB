@@ -1,0 +1,130 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "commentCount": {
+            "bsonType": "long"
+        },
+        "commentLists": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "comment": {
+                        "bsonType": "string"
+                    },
+                    "commentId": {
+                        "bsonType": "string"
+                    },
+                    "likeCount": {
+                        "bsonType": "long"
+                    },
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "replyTo": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "type": {
+                        "bsonType": "string"
+                    },
+                    "userImage": {
+                        "bsonType": "string"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "commentList",
+                "type": "object"
+            }
+        },
+        "likeCount": {
+            "bsonType": "long"
+        },
+        "likedby": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "reactionType": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "userImage": {
+                        "bsonType": "string"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "likedBy",
+                "type": "object"
+            }
+        },
+        "ownerId": {
+            "bsonType": "string"
+        },
+        "postId": {
+            "bsonType": "string"
+        },
+        "postType": {
+            "bsonType": "string"
+        },
+        "rawText": {
+            "bsonType": "string"
+        },
+        "reactionType": {
+            "bsonType": "string"
+        },
+        "reportCount": {
+            "bsonType": "long"
+        },
+        "sharedByList": {
+            "bsonType": "array",
+            "items": {
+                "properties": {
+                    "mongoUserId": {
+                        "bsonType": "string"
+                    },
+                    "timeStamp": {
+                        "bsonType": "date"
+                    },
+                    "userImage": {
+                        "bsonType": "string"
+                    },
+                    "userName": {
+                        "bsonType": "string"
+                    }
+                },
+                "required": [],
+                "title": "sharedBy",
+                "type": "object"
+            }
+        },
+        "sharedCount": {
+            "bsonType": "long"
+        },
+        "thumbnail": {
+            "bsonType": "string"
+        },
+        "userImage": {
+            "bsonType": "string"
+        },
+        "userName": {
+            "bsonType": "string"
+        }
+    },
+    "required": [],
+    "title": "post_reactions",
+    "type": "object"
+}

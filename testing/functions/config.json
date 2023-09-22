@@ -1,0 +1,108 @@
+[
+    {
+        "name": "pass",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "tg_users_delete",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "passwordReset",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "main_postReactions",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "tg_postReactions_update",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "tg_userInfos_update",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "main_users",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "tg_users_insert",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "tg_userFollowings_update",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "main_userInfos",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "emailConfirmation",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "main_posts",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "emailc",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "tg_posts_delete",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "tg_posts_insert",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "customAuthFunc",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "fcm_app_notification",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "confirmFunc",
+        "private": true
+    },
+    {
+        "name": "resetFunc",
+        "private": true
+    },
+    {
+        "name": "onUserCreation",
+        "private": false
+    }
+]
